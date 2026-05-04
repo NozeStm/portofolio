@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">Portfolio BTS SIO</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="alternance.html">Alternance</a></li>
+                <li><a href="veille.html">Veille Techno</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <section id="veille">
+            <h2>Ma Veille Technologique</h2>
+            
+            <div class="alternance-container">
+                <div class="alternance-card" style="margin-bottom: 3rem;">
+                    <h4>🎯 Ma Méthodologie et Mes Outils</h4>
+                    <p style="margin-bottom: 1rem;">Pour maintenir mes connaissances à jour et anticiper les évolutions du secteur de l'administration système et réseau, j'ai mis en place une veille informationnelle ciblée et régulière.</p>
+                    
+                    <div class="competences-alternance">
+                        <div class="comp-item">
+                            <span class="comp-icon">💼</span>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <p>Suivi d'experts en cybersécurité, d'éditeurs de solutions (Microsoft, VMware, Cisco) et de pages institutionnelles. Cela me permet d'avoir un flux d'actualités professionnel, réactif et axé sur les retours d'expérience du marché.</p>
+                            </div>
+                        </div>
+                        <div class="comp-item">
+                            <span class="comp-icon">▶️</span>
+                            <div>
+                                <strong>YouTube</strong>
+                                <p>Abonnement à des chaînes techniques spécialisées en infrastructure et sécurité. Ce format est idéal pour le "Deep Dive" technologique, découvrir de nouveaux équipements réseau ou le déploiement de logiciels en conditions réelles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alternance-card">
+                    <h4>🔍 Mes Thèmes d'Étude</h4>
+                    <p style="margin-bottom: 2rem;">Ma veille technologique s'articule autour de trois axes majeurs qui impactent directement le métier d'administrateur systèmes et réseaux : l'intégration de l'Intelligence Artificielle dans nos outils du quotidien, l'évolution matérielle des équipements réseaux, et les nouveautés logicielles côté serveurs.</p>
+
+                    <div class="projets-grid">
+                        
+                        <div class="projet-card">
+                            <div class="projet-image" style="background: linear-gradient(135deg, #FF0000, var(--dark));">▶️</div>
+                            <div class="projet-content">
+                                <h3>Automatisation Agentique et Cybersécurité</h3>
+                                <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">📅 Mars 2026 | Source : Forum InCyber</p>
+                                <p>Présentation de l'intégration de l'IA entre Cisco et Splunk pour l'analyse des logs. L'objectif est d'utiliser l'automatisation agentique pour filtrer les faux positifs, réduire la fatigue des administrateurs et accélérer la réponse aux incidents.</p>
+                                <div class="projet-tags">
+                                    <span class="tag">Intelligence Artificielle</span>
+                                    <span class="tag">Splunk</span>
+                                    <span class="tag">Automatisation</span>
+                                </div>
+                                <a href="https://www.youtube.com/shorts/IlZobcabpTE" target="_blank" class="btn" style="padding: 8px 15px; font-size: 0.9rem; margin-top: 1rem; display: inline-block;">Voir l'interview</a>
+                            </div>
+                        </div>
+
+                        <div class="projet-card">
+                            <div class="projet-image" style="background: linear-gradient(135deg, #FF0000, var(--dark));">▶️</div>
+                            <div class="projet-content">
+                                <h3>Cisco Live 2026 : Le nouveau Switch 100 Térabits</h3>
+                                <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">📅 Février 2026 | Source : Cisco Amsterdam</p>
+                                <p>Analyse de la keynote d'ouverture présentant la nouvelle puce de silicium G300. Elle permet de concevoir des commutateurs réseau d'une capacité colossale de 100 Térabits par seconde, une infrastructure désormais vitale pour supporter la charge des data centers orientés IA.</p>
+                                <div class="projet-tags">
+                                    <span class="tag">Infrastructure</span>
+                                    <span class="tag">Hardware</span>
+                                    <span class="tag">Haute Disponibilité</span>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=qAL8KQe_apQ" target="_blank" class="btn" style="padding: 8px 15px; font-size: 0.9rem; margin-top: 1rem; display: inline-block;">Voir la Keynote</a>
+                            </div>
+                        </div>
+
+                        <div class="projet-card">
+                            <div class="projet-image" style="background: linear-gradient(135deg, #FF0000, var(--dark));">▶️</div>
+                            <div class="projet-content">
+                                <h3>Nouveautés majeures de Windows Server 2025</h3>
+                                <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">📅 Novembre 2025 | Source : YouTube IT</p>
+                                <p>Découverte des nouvelles fonctionnalités de l'OS serveur de Microsoft. Focus sur le partitionnement GPU dans Hyper-V (très utile pour assigner des ressources IA aux VM) et le renforcement natif des politiques de sécurité avec la désactivation du vieux protocole NTLM.</p>
+                                <div class="projet-tags">
+                                    <span class="tag">Windows Server</span>
+                                    <span class="tag">Hyper-V</span>
+                                    <span class="tag">Cybersécurité</span>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=ehkKyaNoKa0" target="_blank" class="btn" style="padding: 8px 15px; font-size: 0.9rem; margin-top: 1rem; display: inline-block;">Voir le test technique</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portfolio BTS SIO SISR | Hébergé sur GitHub Pages</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">Portfolio BTS SIO</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="alternance.html">Alternance</a></li>
+                <li><a href="veille.html">Veille Techno</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <section id="projets">
+            <h2>Mes Projets BTS SIO</h2>
+            <div class="projets-grid">
+                
+                <div class="projet-card" onclick="openModal('projet4')">
+                    <div class="projet-image">🏢</div>
+                    <div class="projet-content">
+                        <h3>Infrastructure Egnaro (S1)</h3>
+                        <p>Conception d'un réseau d'entreprise : hébergement Web, segmentation VLAN et accès distants sécurisés.</p>
+                        <div class="projet-tags">
+                            <span class="tag">VLAN</span>
+                            <span class="tag">Web/SSH</span>
+                            <span class="tag">RDP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-card" onclick="openModal('projet5')">
+                    <div class="projet-image">🛡️</div>
+                    <div class="projet-content">
+                        <h3>Sécurité Geltram (S2)</h3>
+                        <p>Modernisation d'infrastructure : zone DMZ, détection d'intrusion (Snort) et gestion de parc (GLPI/FOG).</p>
+                        <div class="projet-tags">
+                            <span class="tag">DMZ/Snort</span>
+                            <span class="tag">GLPI/FOG</span>
+                            <span class="tag">Active Directory</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-card" onclick="openModal('projet6')">
+                    <div class="projet-image">🔄</div>
+                    <div class="projet-content">
+                        <h3>Haute Dispo GSB (S3)</h3>
+                        <p>Mise en place de la tolérance de panne, réplication des services critiques et sécurité OPNsense.</p>
+                        <div class="projet-tags">
+                            <span class="tag">Haute Dispo</span>
+                            <span class="tag">OPNsense</span>
+                            <span class="tag">Réplication</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet-card" onclick="openModal('projet7')">
+                    <div class="projet-image">⚙️</div>
+                    <div class="projet-content">
+                        <h3>Optimisation GSB (S3B)</h3>
+                        <p>Automatisation et sécurisation avancée : Scripts PowerShell, SIEM et défense en profondeur.</p>
+                        <div class="projet-tags">
+                            <span class="tag">PowerShell</span>
+                            <span class="tag">SIEM/IPS</span>
+                            <span class="tag">Supervision</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <div id="projetModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Portfolio BTS SIO SISR | Hébergé sur GitHub Pages</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
